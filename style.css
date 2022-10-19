@@ -57,9 +57,26 @@ body {
 #listas {
     background-color: #DDDDDD;
     border: 5px solid #222831;
-    max-width: 650px;
-    margin: auto;
+    max-width: 40%;
+    margin-left:28%;
 }
 #rodape {
     text-align: center;
+}
+
+article {
+    background-color: #DDDDDD;
+    border: 5px solid #222831;
+    max-width: 40%;
+    margin-left:28%;
+    margin-top: 5px;
+    text-align: justify;
+}
+
+aside{
+    background-color: #DDDDDD;
+    border: 5px solid #222831;
+    max-width: 40%;
+    margin-left:28%;
+    margin-top: 5px;
 }
