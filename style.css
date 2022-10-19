@@ -1,86 +1,84 @@
+/* stylelint-disable color-no-hex */
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-    background-color: #222831;
-    top: 0;
-    overflow: clip;
+  background-color: #222831;
+  top: 0;
+  overflow: clip;
 }
 
 #titulo {
-    background-color: #F05454;
-    text-align: center;
-    height: auto;
-    margin: 0px;
-    border: 5px solid #222831;
-    font-size: 40px;
-    color: #222831;
+  background-color:#F05454;
+  text-align: center;
+  height: auto;
+  margin: 0 px;
+  border: 5px solid#222831;
+  font-size: 40px;
+  color:#222831;
 }
 
 #minha_foto {
-    display: block;
-    max-width: 20%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
-    margin-bottom: 60px;
-    background-color: #222831;
-    padding: 5px;
+  display: block;
+  max-width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  background-color: #222831;
+  padding: 5px;
 }
 
 #lista-navegar {
-    background-color: #F05454;
-    padding: 10px;
-    margin-top: 0px;
-    margin-bottom: 40px;
-    border-left: 5px solid #222831;
-    border-right: 5px solid #222831;
-    border-bottom: 5px solid #222831;
+  background-color: #F05454;
+  padding: 10px;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  border-left: 5px solid #222831;
+  border-right: 5px solid #222831;
+  border-bottom: 5px solid #222831;
 }
 
 .nav {
-    display: inline-block;
-    margin-left: 10px;
-    font-size: 25px;
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 25px;
 }
 
 #licoes_aprendidas {
-    display: inline-block;
+  display: inline-block;
 }
 
 #licoes_a_aprender {
-    display: inline-block;
-    margin-left: 50px;
+  display: inline-block;
+  margin-left: 50px;
 }
 
 #listas {
-    background-color: #DDDDDD;
-    border: 5px solid #222831;
-    max-width: 40%;
-    margin-left:28%;
+  background-color: #DDDDDD;
+  border: 5px solid #222831;
+  max-width: 40%;
+  margin-left: 28%;
 }
+
 #rodape {
-    text-align: center;
+  text-align: center;
 }
 
 article {
-    background-color: #DDDDDD;
-    border: 5px solid #222831;
-    max-width: 40%;
-    margin-left:28%;
-    margin-top: 5px;
-    text-align: justify;
+  background-color: #DDDDDD;
+  border: 5px solid #222831;
+  max-width: 40%;
+  margin-left:28%;
+  margin-top: 5px;
+  text-align: justify;
 }
 
-aside{
-    background-color: #DDDDDD;
-    border: 5px solid #222831;
-    max-width: 40%;
-    margin-left:28%;
-    margin-top: 5px;
-}
-
-main{
-
+aside {
+  background-color: #DDDDDD;
+  border: 5px solid #222831;
+  max-width: 40%;
+  margin-left: 28%;
+  margin-top: 5px;
 }
