@@ -4,8 +4,9 @@ body {
 
 #cabecalho {
   background-color: rgb(34, 40, 49);
+  position: absolute;
+  width: 99%;
   top: 0;
-  overflow: clip;
 }
 
 #titulo {
@@ -25,16 +26,16 @@ body {
   max-width: 20%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 40px;
+  margin-top: 150px;
   background-color: rgb(34, 40, 49);
   padding: 5px;
 }
 
 #lista-navegar {
   background-color: rgb(240, 84, 84);
-  padding: 10px;
+  padding: 5px;
   margin-top: 0;
-  margin-bottom: 40px;
+  margin-bottom: 0;
   border-left: 5px solid rgb(34, 40, 49);
   border-right: 5px solid rgb(34, 40, 49);
   border-bottom: 5px solid rgb(34, 40, 49);
@@ -74,6 +75,7 @@ article {
   margin-left: 28%;
   margin-top: 5px;
   text-align: justify;
+  line-height: 20px;
 }
 
 aside {
