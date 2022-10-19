@@ -2,9 +2,10 @@ body {
     background-color: rgb(253, 251, 251);
 }
 
-#cabecalho{
+#cabecalho {
     background-color: #222831;
     top: 0;
+    overflow: clip;
 }
 
 #titulo {
@@ -17,7 +18,7 @@ body {
     color: #222831;
 }
 
-#minha_foto{
+#minha_foto {
     display: block;
     max-width: 20%;
     margin-left: auto;
@@ -28,7 +29,7 @@ body {
     padding: 5px;
 }
 
-#lista-navegar{
+#lista-navegar {
     background-color: #F05454;
     padding: 10px;
     margin-top: 0px;
@@ -38,17 +39,27 @@ body {
     border-bottom: 5px solid #222831;
 }
 
-#nav{
+#nav {
     display: inline-block;
     margin-left: 10px;
     font-size: 25px;
 }
 
-#licoes_aprendidas{
+#licoes_aprendidas {
     display: inline-block;
 }
 
-#licoes_a_aprender{
+#licoes_a_aprender {
     display: inline-block;
     margin-left: 50px;
+}
+
+#listas {
+    background-color: #DDDDDD;
+    border: 5px solid #222831;
+    max-width: 650px;
+    margin: auto;
+}
+#rodape {
+    text-align: center;
 }
