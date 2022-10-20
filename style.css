@@ -104,7 +104,9 @@ aside {
   flex-direction: row;
 }
 
-table, th, td {
+table,
+th,
+td {
   border: 10px solid rgb(34, 40, 49);
   margin-top: 1%;
   width: 916.87px;
