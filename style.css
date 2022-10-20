@@ -24,7 +24,6 @@ body {
   color: rgb(34, 40, 49);
   font-family: Courier, monospace;
   font-weight: 200;
-  text-align: center;
 }
 
 #minha_foto {
@@ -105,12 +104,9 @@ aside {
   flex-direction: row;
 }
 
-main {
-  width: 917.86
-}
-
 table, th, td {
-  border: 1px solid;
+  border: 10px solid rgb(34, 40, 49);
   margin-top: 1%;
   width: 916.87px;
+  text-align: center;
 }
