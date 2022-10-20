@@ -1,12 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-  background-color: rgb(34, 40, 49);
-  position: absolute;
-  width: 99%;
+  position: fixed;
   top: 0;
+  margin-left: 5px;
+  width: max-content;
 }
 
 #titulo {
@@ -19,13 +24,13 @@ body {
   color: rgb(34, 40, 49);
   font-family: Courier, monospace;
   font-weight: 200;
+  text-align: center;
 }
 
 #minha_foto {
   display: block;
   max-width: 20%;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 285.76px;
   margin-top: 150px;
   background-color: rgb(34, 40, 49);
   padding: 5px;
@@ -34,12 +39,11 @@ body {
 #lista-navegar {
   background-color: rgb(240, 84, 84);
   padding: 5px;
-  margin-top: 50px;
   margin-bottom: 0;
   border-left: 5px solid rgb(34, 40, 49);
   border-right: 5px solid rgb(34, 40, 49);
   border-bottom: 5px solid rgb(34, 40, 49);
-  width: 98.75%;
+  width: 897.86px;
 }
 
 .nav {
@@ -50,39 +54,63 @@ body {
 
 #licoes_aprendidas {
   display: inline-block;
+  padding: 30px;
 }
 
 #licoes_a_aprender {
   display: inline-block;
   margin-left: 50px;
+  padding: 20px;
 }
 
 #listas {
   background-color: rgb(221, 221, 221);
   border: 5px solid rgb(34, 40, 49);
   max-width: 40%;
-  margin-left: 28%;
+  margin-left: 130px;
   margin-top: 60px;
 }
 
 #rodape {
   text-align: center;
+  margin-top: 100px;
 }
 
 article {
   background-color: rgb(221, 221, 221);
   border: 5px solid rgb(34, 40, 49);
-  max-width: 40%;
-  margin-left: 28%;
-  margin-top: 5px;
+  max-width: 300px;
+  margin-left: 5.8%;
+  margin-top: 1%;
   text-align: justify;
   line-height: 20px;
+  padding: 20px;
+  display: inline-block;
 }
 
 aside {
   background-color: rgb(221, 221, 221);
   border: 5px solid rgb(34, 40, 49);
-  max-width: 40%;
-  margin-left: 28%;
-  margin-top: 5px;
+  max-width: 300px;
+  height: 240px;
+  margin-left: 1%;
+  margin-top: 1%;
+  display: inline-block;
+  text-align: justify;
+  padding: 20px;
+}
+
+.divisor {
+  display: flex;
+  flex-direction: row;
+}
+
+main {
+  width: 917.86
+}
+
+table, th, td {
+  border: 1px solid;
+  margin-top: 1%;
+  width: 916.87px;
 }
